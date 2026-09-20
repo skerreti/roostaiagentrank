@@ -89,7 +89,7 @@ const prev = JSON.parse(await readFile("ranks.json", "utf8"));
 
 const extraCrypto = await discoverGithub("ai agent crypto stars:>1000");
 const extraTradfi = await discoverGithub("ai trading agents stocks stars:>1000");
-const extraMemes = await discoverGithub("ai agent memecoin OR pump.fun stars:>200");
+const extraMemes = await discoverGithub("pump.fun OR memecoin tracker OR gmgn stars:>200");
 
 function merge(base, extra) {
   const names = new Set(base.map(x => x.name.toLowerCase()));
