@@ -1,127 +1,127 @@
 {
-  "weekOf": "2026-09-15",
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "note": "Editorial + public-metric snapshot. Not financial advice.",
+  "weekOf": "2026-09-14",
+  "generatedAt": "2026-09-20T01:37:16.168Z",
+  "note": "Scored from editorial baseScore + GitHub stars/recency. New GitHub names can enter if they beat #10.",
   "categories": {
     "crypto": [
       {
-        "name": "AIXBT (Virtuals)",
-        "url": "https://x.com/aixbt_agent",
-        "rank": 1,
-        "prevRank": 1,
-        "standout": "Most-used surface: the public @aixbt_agent feed and terminal, not a nameless swarm child-agent.",
-        "bullets": [
-          "Live narrative, flow, and KOL tracking for large-cap crypto.",
-          "Highest mindshare among single-name intel agents.",
-          "Best used as a research layer, not an autopilot execution bot."
-        ]
-      },
-      {
-        "name": "Coinbase for Agents + Grok",
-        "url": "https://www.coinbase.com",
-        "rank": 2,
-        "prevRank": 2,
-        "standout": "Most-used client on Coinbase for Agents last measured week: Grok, ahead of Perplexity and Claude.",
-        "bullets": [
-          "Connects a funded Coinbase account to an LLM agent.",
-          "Strongest named share of recent agentic trading volume.",
-          "Better for execution + portfolio actions than long-form research."
-        ]
-      },
-      {
-        "name": "CMC AI",
-        "url": "https://coinmarketcap.com",
-        "rank": 3,
-        "prevRank": 3,
-        "standout": "Most-used surface: CMC AI chat over live CMC market, on-chain, and watchlist data.",
-        "bullets": [
-          "Fast large-cap briefings before a trade.",
-          "Reads portfolio/watchlist context if you allow it.",
-          "Research only — it does not hold a wallet."
-        ]
-      },
-      {
-        "name": "Messari Copilot",
-        "url": "https://messari.io",
-        "rank": 4,
-        "prevRank": 4,
-        "standout": "Most-used surface: Copilot answers cited against Messari research and datasets.",
-        "bullets": [
-          "Institutional-style Q&A on sectors and large caps.",
-          "Citations make claims easier to check.",
-          "Weaker on second-to-second tape than AIXBT or Coinbase Agents."
-        ]
-      },
-      {
-        "name": "DefiLlama LlamaAI",
-        "url": "https://defillama.com",
-        "rank": 5,
-        "prevRank": 5,
-        "standout": "Most-used surface: LlamaAI querying DefiLlama TVL, fees, and yields.",
-        "bullets": [
-          "Best free structural read on large-cap DeFi.",
-          "Good for comparing protocols, not price calls.",
-          "Limited social/narrative coverage."
-        ]
-      },
-      {
-        "name": "Fetch.ai / ASI Alliance agents",
-        "url": "https://fetch.ai",
-        "rank": 6,
-        "prevRank": 6,
-        "standout": "Most-used surface: ASI/Fetch agent services for economic tasks, not a single celebrity bot.",
-        "bullets": [
-          "Longest-running autonomous economic-agent stack.",
-          "Better infrastructure than a weekly alpha feed.",
-          "Heavier setup than AIXBT or CMC AI."
-        ]
-      },
-      {
         "name": "ElizaOS agents",
         "url": "https://github.com/elizaOS",
-        "rank": 7,
+        "rank": 1,
         "prevRank": 7,
-        "standout": "Most-used surface: community Eliza agents on X and Telegram, not one official analyst.",
+        "standout": "Most-used surface: community Eliza bots.",
         "bullets": [
-          "Highest-adoption open crypto agent framework.",
-          "You can run your own large-cap analyst character.",
-          "Quality varies by operator."
-        ]
-      },
-      {
-        "name": "Bankr",
-        "url": "https://bankr.bot",
-        "rank": 8,
-        "prevRank": 8,
-        "standout": "Most-used surface: Bankr agent executing and commenting on Base/Uniswap flow.",
-        "bullets": [
-          "Research plus on-chain actions.",
-          "High Base DEX agentic volume.",
-          "More execution risk than a read-only copilot."
-        ]
-      },
-      {
-        "name": "Virtuals Protocol agents",
-        "url": "https://virtuals.io",
-        "rank": 9,
-        "prevRank": 9,
-        "standout": "Most-used named agent on the launchpad remains AIXBT; treat Virtuals as the factory.",
-        "bullets": [
-          "Largest tokenized-agent launchpad.",
-          "Useful for discovering new intel agents.",
-          "Platform quality is uneven — score the agent, not the ticker."
+          "Open framework.",
+          "DIY analyst agents.",
+          "Uneven quality."
         ]
       },
       {
         "name": "Freqtrade + FreqAI",
         "url": "https://github.com/freqtrade/freqtrade",
-        "rank": 10,
+        "rank": 2,
         "prevRank": 10,
-        "standout": "Most-used surface: self-hosted FreqAI strategy bots on CEX/DEX via CCXT.",
+        "standout": "Most-used surface: self-hosted FreqAI bots.",
         "bullets": [
-          "Most-starred open crypto trading bot.",
-          "ML module is real; results depend on your strategy.",
-          "Not a narrative agent."
+          "Open CEX/DEX bot.",
+          "ML module.",
+          "Not narrative."
+        ]
+      },
+      {
+        "name": "AIXBT (Virtuals)",
+        "url": "https://x.com/aixbt_agent",
+        "rank": 3,
+        "prevRank": 1,
+        "standout": "Most-used surface: the public @aixbt_agent feed and terminal.",
+        "bullets": [
+          "Narrative and flow tracking.",
+          "Highest single-agent mindshare.",
+          "Research layer, not autopilot."
+        ]
+      },
+      {
+        "name": "Coinbase for Agents + Grok",
+        "url": "https://www.coinbase.com",
+        "rank": 4,
+        "prevRank": 2,
+        "standout": "Most-used named client: Grok.",
+        "bullets": [
+          "Account-connected agent.",
+          "High agentic volume.",
+          "Execution over long-form research."
+        ]
+      },
+      {
+        "name": "OpenBB",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "rank": 5,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "73263 GitHub stars.",
+          "Open Data Platform for analysts, quants and AI agents.",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "CMC AI",
+        "url": "https://coinmarketcap.com",
+        "rank": 6,
+        "prevRank": 3,
+        "standout": "Most-used surface: CMC AI chat.",
+        "bullets": [
+          "Live CMC data.",
+          "Watchlist-aware briefs.",
+          "No wallet."
+        ]
+      },
+      {
+        "name": "eliza",
+        "url": "https://github.com/elizaOS/eliza",
+        "rank": 7,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "19375 GitHub stars.",
+          "Open source agentic operating system",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "Messari Copilot",
+        "url": "https://messari.io",
+        "rank": 8,
+        "prevRank": 4,
+        "standout": "Most-used surface: cited Copilot answers.",
+        "bullets": [
+          "Institutional Q&A.",
+          "Citations.",
+          "Slower tape."
+        ]
+      },
+      {
+        "name": "QuantDinger",
+        "url": "https://github.com/OpenByteInc/QuantDinger",
+        "rank": 9,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "11750 GitHub stars.",
+          "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "DefiLlama LlamaAI",
+        "url": "https://defillama.com",
+        "rank": 10,
+        "prevRank": 5,
+        "standout": "Most-used surface: LlamaAI over DefiLlama.",
+        "bullets": [
+          "TVL/fees/yields.",
+          "Protocol comparison.",
+          "Weak on CT."
         ]
       }
     ],
@@ -131,241 +131,241 @@
         "url": "https://github.com/TauricResearch/TradingAgents",
         "rank": 1,
         "prevRank": 1,
-        "standout": "Most-used surface: the multi-agent desk (analyst / researcher / trader / risk) in the open repo.",
+        "standout": "Most-used surface: multi-agent desk in the repo.",
         "bullets": [
-          "100k+ GitHub stars; simulates a trading firm.",
-          "Best open stack for equity debate workflows.",
-          "Backtests ≠ live brokerage P&L."
-        ]
-      },
-      {
-        "name": "Trade Ideas (HOLLY)",
-        "url": "https://www.trade-ideas.com",
-        "rank": 2,
-        "prevRank": 2,
-        "standout": "Most-used surface: HOLLY AI scanner and OddsMaker alerts.",
-        "bullets": [
-          "Real-time US equity idea generation.",
-          "Built for day-trade scanning, not long-only research.",
-          "Paid product with a free tier."
+          "Huge GH traction.",
+          "Firm-style debate.",
+          "Not live P&L."
         ]
       },
       {
         "name": "ai-hedge-fund",
         "url": "https://github.com/virattt/ai-hedge-fund",
-        "rank": 3,
+        "rank": 2,
         "prevRank": 3,
-        "standout": "Most-used surface: Buffett/Munger-style persona agents debating a name.",
+        "standout": "Most-used surface: investor-persona debate.",
         "bullets": [
-          "Open multi-agent stock research.",
-          "Good for thesis framing.",
-          "Not connected to a broker by default."
+          "Open research.",
+          "Thesis framing.",
+          "No broker."
         ]
       },
       {
         "name": "FinRL / FinRL-Trading",
         "url": "https://github.com/AI4Finance-Foundation/FinRL",
-        "rank": 4,
+        "rank": 3,
         "prevRank": 4,
-        "standout": "Most-used surface: FinRL-Trading live layer on top of the research library.",
+        "standout": "Most-used surface: FinRL-Trading adapters.",
         "bullets": [
-          "Core open RL trading toolkit.",
-          "Alpaca-style live adapters exist.",
-          "Research-heavy; not a consumer UI."
+          "RL toolkit.",
+          "Live adapters.",
+          "Research UX."
+        ]
+      },
+      {
+        "name": "FinRobot",
+        "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+        "rank": 4,
+        "prevRank": null,
+        "standout": "Most-used surface: equity-research report agents.",
+        "bullets": [
+          "Open research agents.",
+          "Report generation.",
+          "Smaller than TradingAgents."
+        ]
+      },
+      {
+        "name": "Trade Ideas (HOLLY)",
+        "url": "https://www.trade-ideas.com",
+        "rank": 5,
+        "prevRank": 2,
+        "standout": "Most-used surface: HOLLY scanner.",
+        "bullets": [
+          "US equity scans.",
+          "Day-trade focus.",
+          "Paid."
+        ]
+      },
+      {
+        "name": "QuantDinger",
+        "url": "https://github.com/OpenByteInc/QuantDinger",
+        "rank": 6,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "11750 GitHub stars.",
+          "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "Interactive Brokers MCP",
         "url": "https://www.interactivebrokers.com",
-        "rank": 5,
+        "rank": 7,
         "prevRank": 5,
-        "standout": "Most-used surface: IBKR MCP letting an agent read positions and draft orders.",
+        "standout": "Most-used surface: IBKR MCP.",
         "bullets": [
-          "Strongest broker MCP reviews in 2026.",
-          "Human approval before send on the safest setups.",
-          "Needs an IBKR account."
+          "Broker MCP.",
+          "Approval flow.",
+          "Account required."
+        ]
+      },
+      {
+        "name": "lumibot",
+        "url": "https://github.com/Lumiwealth/lumibot",
+        "rank": 8,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "2075 GitHub stars.",
+          "AI agents that actually place the trade. 12 brokers, real backtests, stocks options futures forex crypto and prediction markets.",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "Horizon.Trade",
         "url": "https://horizon.trade",
-        "rank": 6,
+        "rank": 9,
         "prevRank": 6,
-        "standout": "Most-used surface: the agentic terminal from research through ticket.",
+        "standout": "Most-used surface: agentic terminal.",
         "bullets": [
-          "Purpose-built agentic equity workflow.",
-          "Collapses scanner + research + broker hooks.",
-          "Newer than Trade Ideas / IBKR."
+          "Research to ticket.",
+          "Retail/pro.",
+          "Newer."
         ]
       },
       {
         "name": "TrendSpider",
         "url": "https://trendspider.com",
-        "rank": 7,
-        "prevRank": 7,
-        "standout": "Most-used surface: automated technical bots and multi-timeframe scans.",
-        "bullets": [
-          "Strong chart automation.",
-          "Good uptrend discovery.",
-          "Technical, not fundamental."
-        ]
-      },
-      {
-        "name": "Numerai",
-        "url": "https://numer.ai",
-        "rank": 8,
-        "prevRank": 8,
-        "standout": "Most-used surface: the Numerai tournament models, not a chat agent.",
-        "bullets": [
-          "Longest-running crowdsourced ML hedge fund.",
-          "Signals are the product.",
-          "No retail order ticket."
-        ]
-      },
-      {
-        "name": "Robinhood / Webull Agentic Trading",
-        "url": "https://robinhood.com",
-        "rank": 9,
-        "prevRank": 9,
-        "standout": "Most-used surface: bring-your-own MCP agent into a ring-fenced brokerage account.",
-        "bullets": [
-          "Consumer agentic brokerage is live in 2026.",
-          "Easy onboarding vs IBKR.",
-          "Guardrails and asset coverage still changing."
-        ]
-      },
-      {
-        "name": "Tickeron / Autopilot AI books",
-        "url": "https://tickeron.com",
         "rank": 10,
-        "prevRank": 10,
-        "standout": "Most-used surface: public AI portfolios you can inspect or copy.",
+        "prevRank": 7,
+        "standout": "Most-used surface: automated technical bots.",
         "bullets": [
-          "Visible model books and robots.",
-          "Useful for comparing LLM/trader styles.",
-          "Past book performance is not a forecast."
+          "Uptrend scans.",
+          "Chart automation.",
+          "Not fundamental."
         ]
       }
     ],
     "memes": [
       {
+        "name": "OpenClaw trading agents",
+        "url": "https://github.com/openclaw",
+        "rank": 1,
+        "prevRank": null,
+        "standout": "Most-used surface: OpenClaw agent runtime.",
+        "bullets": [
+          "Huge GH velocity.",
+          "General agent, some trading plugins.",
+          "Not meme-native."
+        ]
+      },
+      {
         "name": "AIXBT",
         "url": "https://x.com/aixbt_agent",
-        "rank": 1,
+        "rank": 2,
         "prevRank": 1,
-        "standout": "Most-used surface: @aixbt_agent narrative posts; that is the product, not a child token.",
+        "standout": "Most-used surface: @aixbt_agent.",
         "bullets": [
-          "Best general meme-cycle radar.",
-          "Catches rotation early via CT + flows.",
-          "Does not launch coins for you."
+          "Meme-cycle radar.",
+          "CT + flows.",
+          "Does not launch coins."
+        ]
+      },
+      {
+        "name": "JavaGuide",
+        "url": "https://github.com/Snailclimb/JavaGuide",
+        "rank": 3,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "158701 GitHub stars.",
+          "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "dify",
+        "url": "https://github.com/langgenius/dify",
+        "rank": 4,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "156491 GitHub stars.",
+          "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "langflow",
+        "url": "https://github.com/langflow-ai/langflow",
+        "rank": 5,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "155021 GitHub stars.",
+          "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "agency-agents",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "rank": 6,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "153558 GitHub stars.",
+          "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "Pump.fun Mayhem Mode",
         "url": "https://pump.fun",
-        "rank": 2,
+        "rank": 7,
         "prevRank": 2,
-        "standout": "Most-used surface: Mayhem Mode agents trading eligible new Solana memes in the first 24h.",
+        "standout": "Most-used surface: first-24h Mayhem agents.",
         "bullets": [
-          "Native discovery at the launch venue.",
-          "Highest raw new-meme throughput.",
-          "Extreme noise and loss rate."
+          "Launch venue.",
+          "Huge throughput.",
+          "High noise."
+        ]
+      },
+      {
+        "name": "system-prompts-and-models-of-ai-tools",
+        "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "rank": 8,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "143738 GitHub stars.",
+          "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "MemeToro launch agent",
         "url": "https://coingape.com",
-        "rank": 3,
+        "rank": 9,
         "prevRank": 3,
-        "standout": "Most-used surface: the proposal agent that turns trend data into a public launch manifest.",
+        "standout": "Most-used surface: documented launch proposals.",
         "bullets": [
-          "Trend → documented proposal → validator.",
-          "More process than Pump.fun.",
-          "Still early; delivery risk."
+          "Trend to manifest.",
+          "Validators.",
+          "Early."
         ]
       },
       {
         "name": "Truth Terminal lineage",
         "url": "https://x.com",
-        "rank": 4,
-        "prevRank": 4,
-        "standout": "Most-used surface: Truth Terminal-style X agents that seed cultural coins (GOAT lineage).",
-        "bullets": [
-          "Origin pattern for agent-driven memes.",
-          "Culture first, product second.",
-          "Unpredictable and easy to imitate."
-        ]
-      },
-      {
-        "name": "Zerebro",
-        "url": "https://x.com",
-        "rank": 5,
-        "prevRank": 5,
-        "standout": "Most-used surface: Zerebro’s own content/mint loop across chains.",
-        "bullets": [
-          "Generates memes, NFTs, and tokens.",
-          "Cross-chain cultural agent.",
-          "High variance."
-        ]
-      },
-      {
-        "name": "Clanker",
-        "url": "https://www.clanker.world",
-        "rank": 6,
-        "prevRank": 6,
-        "standout": "Most-used surface: Clanker launch agent that deploys tokens and takes fees.",
-        "bullets": [
-          "Real fee generation in 2026.",
-          "Discovery by watching what it launches.",
-          "Launcher ≠ safe coin."
-        ]
-      },
-      {
-        "name": "ALPHA AI (launchpad agents)",
-        "url": "https://gopluslabs.io",
-        "rank": 7,
-        "prevRank": 7,
-        "standout": "Most-used surface: X-to-token generation agents on meme launchpads.",
-        "bullets": [
-          "Turns a post into name, art, and token.",
-          "Fast idea-to-deploy.",
-          "Almost no fundamental filter."
-        ]
-      },
-      {
-        "name": "Ave.ai narrative tools",
-        "url": "https://ave.ai",
-        "rank": 8,
-        "prevRank": 8,
-        "standout": "Most-used surface: Ave narrative/on-chain screens for meme rotation.",
-        "bullets": [
-          "Pairs tape with narrative tags.",
-          "Good second screen next to AIXBT.",
-          "Not an autonomous poster."
-        ]
-      },
-      {
-        "name": "Cookie.fun mindshare",
-        "url": "https://cookie.fun",
-        "rank": 9,
-        "prevRank": 9,
-        "standout": "Most-used surface: Cookie mindshare leaderboard for agents and memes.",
-        "bullets": [
-          "Public attention ranking.",
-          "Useful for spotting new names.",
-          "Mindshare is not quality."
-        ]
-      },
-      {
-        "name": "Griffain",
-        "url": "https://griffain.com",
         "rank": 10,
-        "prevRank": 10,
-        "standout": "Most-used surface: Griffain natural-language Solana agent for DeFi/meme actions.",
+        "prevRank": 4,
+        "standout": "Most-used surface: Truth Terminal-style X agents.",
         "bullets": [
-          "NL to on-chain action on Solana.",
-          "Discovery plus execution.",
-          "Wallet permissions need care."
+          "Cultural origin.",
+          "High imitation.",
+          "Unpredictable."
         ]
       }
     ]
