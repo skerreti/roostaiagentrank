@@ -249,123 +249,123 @@
     ],
     "memes": [
       {
-        "name": "OpenClaw trading agents",
-        "url": "https://github.com/openclaw",
+        "name": "GMGN",
+        "url": "https://gmgn.ai",
         "rank": 1,
         "prevRank": null,
-        "standout": "Most-used surface: OpenClaw agent runtime.",
+        "standout": "Most-used surface: New Pairs + Smart Money on Solana/Base/BSC.",
         "bullets": [
-          "Huge GH velocity.",
-          "General agent, some trading plugins.",
-          "Not meme-native."
+          "Meme tracker, not a general AI chatbot.",
+          "Wallet clusters, first buyers, and migration alerts.",
+          "Best daily screen for what is actually trading."
+        ]
+      },
+      {
+        "name": "Pump.fun",
+        "url": "https://pump.fun",
+        "rank": 7,
+        "prevRank": 2,
+        "standout": "Most-used surface: live Solana bonding-curve feed; Mayhem is the agent overlay.",
+        "bullets": [
+          "Primary meme launchpad by volume.",
+          "Trend = whatever is printing on the curve right now.",
+          "Discovery at the venue, not after the fact."
+        ]
+      },
+      {
+        "name": "DEX Screener (New / Trending)",
+        "url": "https://dexscreener.com",
+        "rank": 3,
+        "prevRank": null,
+        "standout": "Most-used surface: chain filters on Solana, Base, and BSC New Pairs + Trending.",
+        "bullets": [
+          "Cross-chain meme tape.",
+          "Best raw trend finder when a coin leaves the launchpad.",
+          "Use search by pair, not by ticker name."
         ]
       },
       {
         "name": "AIXBT",
         "url": "https://x.com/aixbt_agent",
-        "rank": 2,
-        "prevRank": 1,
-        "standout": "Most-used surface: @aixbt_agent.",
-        "bullets": [
-          "Meme-cycle radar.",
-          "CT + flows.",
-          "Does not launch coins."
-        ]
-      },
-      {
-        "name": "JavaGuide",
-        "url": "https://github.com/Snailclimb/JavaGuide",
-        "rank": 3,
-        "prevRank": null,
-        "standout": "Discovered via GitHub search this week.",
-        "bullets": [
-          "158701 GitHub stars.",
-          "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-          "Promoted only if score beats the current #10."
-        ]
-      },
-      {
-        "name": "dify",
-        "url": "https://github.com/langgenius/dify",
         "rank": 4,
-        "prevRank": null,
-        "standout": "Discovered via GitHub search this week.",
+        "prevRank": 1,
+        "standout": "Most-used surface: @aixbt_agent narrative posts on which meme meta is heating up.",
         "bullets": [
-          "156491 GitHub stars.",
-          "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-          "Promoted only if score beats the current #10."
+          "Meme-cycle radar on Crypto Twitter + flows.",
+          "Tells you the meta (animals, AI, tickers) before the tape is obvious.",
+          "Does not list every new pair."
         ]
       },
       {
-        "name": "langflow",
-        "url": "https://github.com/langflow-ai/langflow",
+        "name": "Cookie.fun",
+        "url": "https://cookie.fun",
         "rank": 5,
-        "prevRank": null,
-        "standout": "Discovered via GitHub search this week.",
+        "prevRank": 9,
+        "standout": "Most-used surface: mindshare leaderboard for meme tickers and agent coins.",
         "bullets": [
-          "155021 GitHub stars.",
-          "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-          "Promoted only if score beats the current #10."
+          "Attention tracker for meme narratives.",
+          "Useful for spotting a name before volume shows up on GMGN.",
+          "Mindshare ≠ safe contract."
         ]
       },
       {
-        "name": "agency-agents",
-        "url": "https://github.com/msitarzewski/agency-agents",
+        "name": "Ave.ai",
+        "url": "https://ave.ai",
         "rank": 6,
-        "prevRank": null,
-        "standout": "Discovered via GitHub search this week.",
+        "prevRank": 8,
+        "standout": "Most-used surface: narrative tags + multi-chain meme screens.",
         "bullets": [
-          "153558 GitHub stars.",
-          "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-          "Promoted only if score beats the current #10."
+          "Pairs on-chain prints with a story tag.",
+          "Good second screen next to GMGN.",
+          "Not a launchpad."
         ]
       },
       {
-        "name": "Pump.fun Mayhem Mode",
-        "url": "https://pump.fun",
+        "name": "Clanker",
+        "url": "https://www.clanker.world",
         "rank": 7,
-        "prevRank": 2,
-        "standout": "Most-used surface: first-24h Mayhem agents.",
+        "prevRank": 6,
+        "standout": "Most-used surface: Base token launches from the Clanker agent.",
         "bullets": [
-          "Launch venue.",
-          "Huge throughput.",
-          "High noise."
+          "Base meme launchpad with real fees.",
+          "Watch what it deploys, then confirm on DEX Screener.",
+          "Launcher quality varies coin to coin."
         ]
       },
       {
-        "name": "system-prompts-and-models-of-ai-tools",
-        "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "name": "four.meme",
+        "url": "https://four.meme",
         "rank": 8,
         "prevRank": null,
-        "standout": "Discovered via GitHub search this week.",
+        "standout": "Most-used surface: BNB Chain bonding-curve launch feed.",
         "bullets": [
-          "143738 GitHub stars.",
-          "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-          "Promoted only if score beats the current #10."
+          "BSC’s main meme launchpad lane.",
+          "Same job as Pump.fun, different chain.",
+          "Use when Solana meta is stale and BSC is running."
         ]
       },
       {
-        "name": "MemeToro launch agent",
-        "url": "https://coingape.com",
+        "name": "Birdeye",
+        "url": "https://birdeye.so",
         "rank": 9,
-        "prevRank": 3,
-        "standout": "Most-used surface: documented launch proposals.",
+        "prevRank": null,
+        "standout": "Most-used surface: Solana trending tokens + new pools.",
         "bullets": [
-          "Trend to manifest.",
-          "Validators.",
-          "Early."
+          "Chain trend finder with liquidity and holder views.",
+          "Strong after a coin graduates Pump.fun.",
+          "Weaker on Base/BSC than DEX Screener."
         ]
       },
       {
-        "name": "Truth Terminal lineage",
-        "url": "https://x.com",
+        "name": "Photon / BullX",
+        "url": "https://photon-sol.tinyastro.io",
         "rank": 10,
-        "prevRank": 4,
-        "standout": "Most-used surface: Truth Terminal-style X agents.",
+        "prevRank": null,
+        "standout": "Most-used surface: fast Solana meme terminals (new pairs + execute).",
         "bullets": [
-          "Cultural origin.",
-          "High imitation.",
-          "Unpredictable."
+          "Trader-facing trend feed, not a research essay.",
+          "Discover and click through in the same UI.",
+          "Execution tool — size down."
         ]
       }
     ]
