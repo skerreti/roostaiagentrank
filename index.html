@@ -133,7 +133,7 @@
       if (prev == null) return `<span class="delta up">NEW</span>`;
       if (rank < prev) return `<span class="delta up">▲ ${prev - rank}</span>`;
       if (rank > prev) return `<span class="delta down">▼ ${rank - prev}</span>`;
-      return `<span class="delta same">• 0</span>`;
+      return "";
     }
 
     function render(cat, payload) {
