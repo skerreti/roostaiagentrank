@@ -1,6 +1,6 @@
 {
-  "weekOf": "2026-09-14",
-  "generatedAt": "2026-09-20T01:37:16.168Z",
+  "weekOf": "2026-09-21",
+  "generatedAt": "2026-09-21T03:19:46.637Z",
   "note": "Scored from editorial baseScore + GitHub stars/recency. New GitHub names can enter if they beat #10.",
   "categories": {
     "crypto": [
@@ -8,7 +8,7 @@
         "name": "ElizaOS agents",
         "url": "https://github.com/elizaOS",
         "rank": 1,
-        "prevRank": 7,
+        "prevRank": 1,
         "standout": "Most-used surface: community Eliza bots.",
         "bullets": [
           "Open framework.",
@@ -20,7 +20,7 @@
         "name": "Freqtrade + FreqAI",
         "url": "https://github.com/freqtrade/freqtrade",
         "rank": 2,
-        "prevRank": 10,
+        "prevRank": 2,
         "standout": "Most-used surface: self-hosted FreqAI bots.",
         "bullets": [
           "Open CEX/DEX bot.",
@@ -32,7 +32,7 @@
         "name": "AIXBT (Virtuals)",
         "url": "https://x.com/aixbt_agent",
         "rank": 3,
-        "prevRank": 1,
+        "prevRank": 3,
         "standout": "Most-used surface: the public @aixbt_agent feed and terminal.",
         "bullets": [
           "Narrative and flow tracking.",
@@ -44,7 +44,7 @@
         "name": "Coinbase for Agents + Grok",
         "url": "https://www.coinbase.com",
         "rank": 4,
-        "prevRank": 2,
+        "prevRank": 4,
         "standout": "Most-used named client: Grok.",
         "bullets": [
           "Account-connected agent.",
@@ -56,10 +56,10 @@
         "name": "OpenBB",
         "url": "https://github.com/OpenBB-finance/OpenBB",
         "rank": 5,
-        "prevRank": null,
+        "prevRank": 5,
         "standout": "Discovered via GitHub search this week.",
         "bullets": [
-          "73263 GitHub stars.",
+          "73316 GitHub stars.",
           "Open Data Platform for analysts, quants and AI agents.",
           "Promoted only if score beats the current #10."
         ]
@@ -68,7 +68,7 @@
         "name": "CMC AI",
         "url": "https://coinmarketcap.com",
         "rank": 6,
-        "prevRank": 3,
+        "prevRank": 6,
         "standout": "Most-used surface: CMC AI chat.",
         "bullets": [
           "Live CMC data.",
@@ -80,10 +80,10 @@
         "name": "eliza",
         "url": "https://github.com/elizaOS/eliza",
         "rank": 7,
-        "prevRank": null,
+        "prevRank": 7,
         "standout": "Discovered via GitHub search this week.",
         "bullets": [
-          "19375 GitHub stars.",
+          "19401 GitHub stars.",
           "Open source agentic operating system",
           "Promoted only if score beats the current #10."
         ]
@@ -92,7 +92,7 @@
         "name": "Messari Copilot",
         "url": "https://messari.io",
         "rank": 8,
-        "prevRank": 4,
+        "prevRank": 8,
         "standout": "Most-used surface: cited Copilot answers.",
         "bullets": [
           "Institutional Q&A.",
@@ -104,10 +104,10 @@
         "name": "QuantDinger",
         "url": "https://github.com/OpenByteInc/QuantDinger",
         "rank": 9,
-        "prevRank": null,
+        "prevRank": 9,
         "standout": "Discovered via GitHub search this week.",
         "bullets": [
-          "11750 GitHub stars.",
+          "11847 GitHub stars.",
           "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
           "Promoted only if score beats the current #10."
         ]
@@ -116,7 +116,7 @@
         "name": "DefiLlama LlamaAI",
         "url": "https://defillama.com",
         "rank": 10,
-        "prevRank": 5,
+        "prevRank": 10,
         "standout": "Most-used surface: LlamaAI over DefiLlama.",
         "bullets": [
           "TVL/fees/yields.",
@@ -142,7 +142,7 @@
         "name": "ai-hedge-fund",
         "url": "https://github.com/virattt/ai-hedge-fund",
         "rank": 2,
-        "prevRank": 3,
+        "prevRank": 2,
         "standout": "Most-used surface: investor-persona debate.",
         "bullets": [
           "Open research.",
@@ -154,7 +154,7 @@
         "name": "FinRL / FinRL-Trading",
         "url": "https://github.com/AI4Finance-Foundation/FinRL",
         "rank": 3,
-        "prevRank": 4,
+        "prevRank": 3,
         "standout": "Most-used surface: FinRL-Trading adapters.",
         "bullets": [
           "RL toolkit.",
@@ -166,7 +166,7 @@
         "name": "FinRobot",
         "url": "https://github.com/AI4Finance-Foundation/FinRobot",
         "rank": 4,
-        "prevRank": null,
+        "prevRank": 4,
         "standout": "Most-used surface: equity-research report agents.",
         "bullets": [
           "Open research agents.",
@@ -178,7 +178,7 @@
         "name": "Trade Ideas (HOLLY)",
         "url": "https://www.trade-ideas.com",
         "rank": 5,
-        "prevRank": 2,
+        "prevRank": 5,
         "standout": "Most-used surface: HOLLY scanner.",
         "bullets": [
           "US equity scans.",
@@ -190,10 +190,10 @@
         "name": "QuantDinger",
         "url": "https://github.com/OpenByteInc/QuantDinger",
         "rank": 6,
-        "prevRank": null,
+        "prevRank": 6,
         "standout": "Discovered via GitHub search this week.",
         "bullets": [
-          "11750 GitHub stars.",
+          "11847 GitHub stars.",
           "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
           "Promoted only if score beats the current #10."
         ]
@@ -202,7 +202,7 @@
         "name": "Interactive Brokers MCP",
         "url": "https://www.interactivebrokers.com",
         "rank": 7,
-        "prevRank": 5,
+        "prevRank": 7,
         "standout": "Most-used surface: IBKR MCP.",
         "bullets": [
           "Broker MCP.",
@@ -214,10 +214,10 @@
         "name": "lumibot",
         "url": "https://github.com/Lumiwealth/lumibot",
         "rank": 8,
-        "prevRank": null,
+        "prevRank": 8,
         "standout": "Discovered via GitHub search this week.",
         "bullets": [
-          "2075 GitHub stars.",
+          "2077 GitHub stars.",
           "AI agents that actually place the trade. 12 brokers, real backtests, stocks options futures forex crypto and prediction markets.",
           "Promoted only if score beats the current #10."
         ]
@@ -226,7 +226,7 @@
         "name": "Horizon.Trade",
         "url": "https://horizon.trade",
         "rank": 9,
-        "prevRank": 6,
+        "prevRank": 9,
         "standout": "Most-used surface: agentic terminal.",
         "bullets": [
           "Research to ticket.",
@@ -238,7 +238,7 @@
         "name": "TrendSpider",
         "url": "https://trendspider.com",
         "rank": 10,
-        "prevRank": 7,
+        "prevRank": 10,
         "standout": "Most-used surface: automated technical bots.",
         "bullets": [
           "Uptrend scans.",
@@ -252,120 +252,120 @@
         "name": "GMGN",
         "url": "https://gmgn.ai",
         "rank": 1,
-        "prevRank": null,
-        "standout": "Most-used surface: New Pairs + Smart Money on Solana/Base/BSC.",
+        "prevRank": 1,
+        "standout": "Most-used surface: New Pairs + Smart Money.",
         "bullets": [
-          "Meme tracker, not a general AI chatbot.",
-          "Wallet clusters, first buyers, and migration alerts.",
-          "Best daily screen for what is actually trading."
+          "Meme tracker.",
+          "Wallet clusters and migrations.",
+          "Daily tape screen."
         ]
       },
       {
         "name": "Pump.fun",
         "url": "https://pump.fun",
-        "rank": 7,
-        "prevRank": 2,
-        "standout": "Most-used surface: live Solana bonding-curve feed; Mayhem is the agent overlay.",
+        "rank": 2,
+        "prevRank": 7,
+        "standout": "Most-used surface: live bonding-curve feed.",
         "bullets": [
-          "Primary meme launchpad by volume.",
-          "Trend = whatever is printing on the curve right now.",
-          "Discovery at the venue, not after the fact."
+          "Top Solana meme launchpad.",
+          "Live curve trends.",
+          "Venue-native discovery."
         ]
       },
       {
         "name": "DEX Screener (New / Trending)",
         "url": "https://dexscreener.com",
         "rank": 3,
-        "prevRank": null,
-        "standout": "Most-used surface: chain filters on Solana, Base, and BSC New Pairs + Trending.",
+        "prevRank": 3,
+        "standout": "Most-used surface: New Pairs + Trending by chain.",
         "bullets": [
           "Cross-chain meme tape.",
-          "Best raw trend finder when a coin leaves the launchpad.",
-          "Use search by pair, not by ticker name."
+          "Post-launch trend finder.",
+          "Filter Solana/Base/BSC."
+        ]
+      },
+      {
+        "name": "worldmonitor",
+        "url": "https://github.com/koala73/worldmonitor",
+        "rank": 4,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "87100 GitHub stars.",
+          "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "career-ops",
+        "url": "https://github.com/career-ops-hq/career-ops",
+        "rank": 5,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "72272 GitHub stars.",
+          "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "ultralytics",
+        "url": "https://github.com/ultralytics/ultralytics",
+        "rank": 6,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "61823 GitHub stars.",
+          "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+          "Promoted only if score beats the current #10."
+        ]
+      },
+      {
+        "name": "litellm",
+        "url": "https://github.com/BerriAI/litellm",
+        "rank": 7,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "59261 GitHub stars.",
+          "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "AIXBT",
         "url": "https://x.com/aixbt_agent",
-        "rank": 4,
-        "prevRank": 1,
-        "standout": "Most-used surface: @aixbt_agent narrative posts on which meme meta is heating up.",
+        "rank": 8,
+        "prevRank": 4,
+        "standout": "Most-used surface: @aixbt_agent meme-meta posts.",
         "bullets": [
-          "Meme-cycle radar on Crypto Twitter + flows.",
-          "Tells you the meta (animals, AI, tickers) before the tape is obvious.",
-          "Does not list every new pair."
+          "Narrative radar.",
+          "Meta detection.",
+          "Not a pair list."
+        ]
+      },
+      {
+        "name": "trackerslist",
+        "url": "https://github.com/ngosang/trackerslist",
+        "rank": 9,
+        "prevRank": null,
+        "standout": "Discovered via GitHub search this week.",
+        "bullets": [
+          "55163 GitHub stars.",
+          "Updated list of public BitTorrent trackers",
+          "Promoted only if score beats the current #10."
         ]
       },
       {
         "name": "Cookie.fun",
         "url": "https://cookie.fun",
-        "rank": 5,
-        "prevRank": 9,
-        "standout": "Most-used surface: mindshare leaderboard for meme tickers and agent coins.",
-        "bullets": [
-          "Attention tracker for meme narratives.",
-          "Useful for spotting a name before volume shows up on GMGN.",
-          "Mindshare ≠ safe contract."
-        ]
-      },
-      {
-        "name": "Ave.ai",
-        "url": "https://ave.ai",
-        "rank": 6,
-        "prevRank": 8,
-        "standout": "Most-used surface: narrative tags + multi-chain meme screens.",
-        "bullets": [
-          "Pairs on-chain prints with a story tag.",
-          "Good second screen next to GMGN.",
-          "Not a launchpad."
-        ]
-      },
-      {
-        "name": "Clanker",
-        "url": "https://www.clanker.world",
-        "rank": 7,
-        "prevRank": 6,
-        "standout": "Most-used surface: Base token launches from the Clanker agent.",
-        "bullets": [
-          "Base meme launchpad with real fees.",
-          "Watch what it deploys, then confirm on DEX Screener.",
-          "Launcher quality varies coin to coin."
-        ]
-      },
-      {
-        "name": "four.meme",
-        "url": "https://four.meme",
-        "rank": 8,
-        "prevRank": null,
-        "standout": "Most-used surface: BNB Chain bonding-curve launch feed.",
-        "bullets": [
-          "BSC’s main meme launchpad lane.",
-          "Same job as Pump.fun, different chain.",
-          "Use when Solana meta is stale and BSC is running."
-        ]
-      },
-      {
-        "name": "Birdeye",
-        "url": "https://birdeye.so",
-        "rank": 9,
-        "prevRank": null,
-        "standout": "Most-used surface: Solana trending tokens + new pools.",
-        "bullets": [
-          "Chain trend finder with liquidity and holder views.",
-          "Strong after a coin graduates Pump.fun.",
-          "Weaker on Base/BSC than DEX Screener."
-        ]
-      },
-      {
-        "name": "Photon / BullX",
-        "url": "https://photon-sol.tinyastro.io",
         "rank": 10,
-        "prevRank": null,
-        "standout": "Most-used surface: fast Solana meme terminals (new pairs + execute).",
+        "prevRank": 5,
+        "standout": "Most-used surface: meme/agent mindshare board.",
         "bullets": [
-          "Trader-facing trend feed, not a research essay.",
-          "Discover and click through in the same UI.",
-          "Execution tool — size down."
+          "Attention tracker.",
+          "Early narrative names.",
+          "Not a safety check."
         ]
       }
     ]
