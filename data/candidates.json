@@ -1,0 +1,192 @@
+{
+  "generated_from_research_date": "2026-09-22",
+  "notes": "Initial candidate universe. Weekly automation may propose replacements but does not automatically insert a new provider without passing the validation gate.",
+  "categories": {
+    "crypto": [
+      {
+        "name": "CoinGecko",
+        "tagline": "Broad crypto market data and AI-agent/MCP tooling",
+        "website": "https://www.coingecko.com/en/api",
+        "docs": "https://www.coingecko.com/learn/best-cryptocurrency-apis"
+      },
+      {
+        "name": "DeFiLlama",
+        "tagline": "DeFi protocol, TVL, yields, stablecoins and DEX data",
+        "website": "https://defillama.com/docs/api",
+        "docs": "https://defillama.com/mcp"
+      },
+      {
+        "name": "Moralis",
+        "tagline": "Wallet, token, DeFi and blockchain APIs",
+        "website": "https://moralis.com/",
+        "docs": "https://moralis.com/api/web3-ai-agents/"
+      },
+      {
+        "name": "Bitquery",
+        "tagline": "Multi-chain indexed blockchain and DEX data",
+        "website": "https://bitquery.io/",
+        "docs": "https://docs.bitquery.io/"
+      },
+      {
+        "name": "Alchemy",
+        "tagline": "Blockchain RPC, APIs and developer infrastructure",
+        "website": "https://www.alchemy.com/",
+        "docs": "https://www.alchemy.com/docs"
+      },
+      {
+        "name": "Dune",
+        "tagline": "On-chain analytics and query platform",
+        "website": "https://dune.com/",
+        "docs": "https://docs.dune.com/"
+      },
+      {
+        "name": "The Graph",
+        "tagline": "Decentralized blockchain indexing",
+        "website": "https://thegraph.com/",
+        "docs": "https://thegraph.com/docs/"
+      },
+      {
+        "name": "GoldRush",
+        "tagline": "Multi-chain blockchain and wallet data",
+        "website": "https://goldrush.dev/",
+        "docs": "https://goldrush.dev/docs/"
+      },
+      {
+        "name": "QuickNode",
+        "tagline": "RPC, streams and on-chain infrastructure",
+        "website": "https://www.quicknode.com/",
+        "docs": "https://www.quicknode.com/docs"
+      },
+      {
+        "name": "Etherscan",
+        "tagline": "Ethereum explorer and blockchain API",
+        "website": "https://etherscan.io/",
+        "docs": "https://docs.etherscan.io/"
+      }
+    ],
+    "tradfi": [
+      {
+        "name": "Massive (Polygon)",
+        "tagline": "US market data, quotes, trades, fundamentals and WebSockets",
+        "website": "https://massive.com/",
+        "docs": "https://massive.com/docs"
+      },
+      {
+        "name": "Alpaca",
+        "tagline": "Market data plus brokerage and trading APIs",
+        "website": "https://alpaca.markets/",
+        "docs": "https://docs.alpaca.markets/"
+      },
+      {
+        "name": "Twelve Data",
+        "tagline": "Multi-asset market data and technical indicators",
+        "website": "https://twelvedata.com/",
+        "docs": "https://twelvedata.com/docs"
+      },
+      {
+        "name": "Finnhub",
+        "tagline": "Market data, fundamentals, news and WebSockets",
+        "website": "https://finnhub.io/",
+        "docs": "https://finnhub.io/docs/api"
+      },
+      {
+        "name": "Alpha Vantage",
+        "tagline": "Stocks, FX, crypto, fundamentals and macro",
+        "website": "https://www.alphavantage.co/",
+        "docs": "https://www.alphavantage.co/documentation/"
+      },
+      {
+        "name": "Financial Modeling Prep",
+        "tagline": "Fundamentals, statements, ratios and market data",
+        "website": "https://financialmodelingprep.com/",
+        "docs": "https://site.financialmodelingprep.com/developer/docs"
+      },
+      {
+        "name": "Tiingo",
+        "tagline": "Curated market and fundamental data",
+        "website": "https://www.tiingo.com/",
+        "docs": "https://www.tiingo.com/documentation/"
+      },
+      {
+        "name": "Intrinio",
+        "tagline": "Market data, fundamentals and options",
+        "website": "https://intrinio.com/",
+        "docs": "https://docs.intrinio.com/"
+      },
+      {
+        "name": "Nasdaq Data Link",
+        "tagline": "Financial and economic datasets",
+        "website": "https://data.nasdaq.com/",
+        "docs": "https://docs.data.nasdaq.com/"
+      },
+      {
+        "name": "Trading Economics",
+        "tagline": "Macro, economic indicators and market data",
+        "website": "https://tradingeconomics.com/",
+        "docs": "https://docs.tradingeconomics.com/"
+      }
+    ],
+    "meme": [
+      {
+        "name": "DEX Screener",
+        "tagline": "Cross-chain DEX pair discovery, liquidity and token signals",
+        "website": "https://dexscreener.com/",
+        "docs": "https://docs.dexscreener.com/api/reference"
+      },
+      {
+        "name": "Birdeye",
+        "tagline": "Real-time DEX/token trading and wallet analytics",
+        "website": "https://birdeye.so/",
+        "docs": "https://docs.birdeye.so/"
+      },
+      {
+        "name": "GeckoTerminal",
+        "tagline": "DEX pools, trending/new pools and OHLCV",
+        "website": "https://www.geckoterminal.com/",
+        "docs": "https://api.geckoterminal.com/docs/"
+      },
+      {
+        "name": "LunarCrush",
+        "tagline": "Social sentiment, mentions, creators and topics",
+        "website": "https://lunarcrush.com/",
+        "docs": "https://lunarcrush.com/en/developers/api"
+      },
+      {
+        "name": "Nansen",
+        "tagline": "Smart-money and wallet intelligence",
+        "website": "https://www.nansen.ai/",
+        "docs": "https://docs.nansen.ai/"
+      },
+      {
+        "name": "Santiment",
+        "tagline": "On-chain and social analytics",
+        "website": "https://app.santiment.net/",
+        "docs": "https://academy.santiment.net/"
+      },
+      {
+        "name": "Defined.fi",
+        "tagline": "Real-time pair and token market data",
+        "website": "https://defined.fi/",
+        "docs": "https://docs.defined.fi/"
+      },
+      {
+        "name": "Helius",
+        "tagline": "Solana RPC, APIs and indexed data",
+        "website": "https://www.helius.dev/",
+        "docs": "https://www.helius.dev/docs"
+      },
+      {
+        "name": "Bitquery",
+        "tagline": "On-chain trades, wallets and DEX intelligence",
+        "website": "https://bitquery.io/",
+        "docs": "https://docs.bitquery.io/"
+      },
+      {
+        "name": "Solana Tracker",
+        "tagline": "Solana token and memecoin data",
+        "website": "https://solanatracker.io/",
+        "docs": "https://docs.solanatracker.io/"
+      }
+    ]
+  }
+}

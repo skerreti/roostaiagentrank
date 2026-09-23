@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "weights": {
+    "ecosystem_relevance": 0.25,
+    "agent_readiness": 0.2,
+    "data_quality": 0.15,
+    "coverage": 0.15,
+    "accessibility": 0.1,
+    "documentation": 0.1,
+    "weekly_momentum": 0.05
+  },
+  "guardrails": {
+    "score_range": [
+      0,
+      100
+    ],
+    "minimum_evidence_sources": 2,
+    "maximum_provider_age_days": 3650
+  }
+}
