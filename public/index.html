@@ -30,6 +30,10 @@
 
       <div class="gate-actions">
         <button class="primary" id="connectBtn">Connect wallet</button>
+        <div class="chooser" id="chooser">
+          <button id="btnInjected">Browser extension</button>
+          <button id="btnCoinbase">Coinbase Wallet</button>
+        </div>
         <div class="wallet-status" id="walletStatus">Hold ≥ $25 of Base $ROOST to unlock.</div>
       </div>
     </section>
@@ -151,16 +155,33 @@ function firstAccount(accounts) {
   return typeof a === "string" ? a : a?.address;
 }
 
-async function connectWallet() {
+async function connectInjected() {
   const eth = window.ethereum;
-  if (!eth) throw new Error("No injected wallet found. Install or open a wallet that provides window.ethereum.");
-
-  const accounts = await eth.request({method:"eth_requestAccounts"});
-  const address = firstAccount(accounts);
-  if (!address) throw new Error("No account returned.");
-
+  if (!eth) {
+    throw new Error("No browser wallet found. Install Coinbase Wallet or MetaMask, or choose Coinbase Wallet below.");
+  }
+  const accounts = await eth.request({ method: "eth_requestAccounts" });
   await switchToBase(eth);
-  return address;
+  return firstAccount(accounts);
+}
+
+async function connectCoinbase() {
+  // v4.3.2 is intentional: v4.3.3 moved the heartbeat interval into a
+  // Web Worker, which fails when the SDK is loaded cross-origin from esm.sh.
+  // v4.3.2 retains the QR/deep-link Coinbase Wallet connection without that worker.
+  const mod = await import("https://esm.sh/@coinbase/wallet-sdk@4.3.2");
+  const CoinbaseWalletSDK = mod.default || mod.CoinbaseWalletSDK;
+  if (!CoinbaseWalletSDK) throw new Error("Unable to load Coinbase Wallet SDK.");
+
+  const sdk = new CoinbaseWalletSDK({
+    appName: "AI Agent Market Intelligence",
+    appLogoUrl: window.location.origin + "/favicon.ico",
+    appChainIds: [BASE_CHAIN_ID]
+  });
+  const provider = sdk.makeWeb3Provider({ options: "all" });
+  const accounts = await provider.request({ method: "eth_requestAccounts" });
+  try { await switchToBase(provider); } catch {}
+  return firstAccount(accounts);
 }
 
 async function verifyAddress(address) {
@@ -209,7 +230,19 @@ async function runConnect(fn) {
   }
 }
 
-document.getElementById("connectBtn").addEventListener("click", () => runConnect(connectWallet));
+document.getElementById("connectBtn").addEventListener("click", () => {
+  document.getElementById("chooser").classList.add("open");
+});
+
+document.getElementById("btnInjected").addEventListener("click", () => {
+  document.getElementById("chooser").classList.remove("open");
+  runConnect(connectInjected);
+});
+
+document.getElementById("btnCoinbase").addEventListener("click", () => {
+  document.getElementById("chooser").classList.remove("open");
+  runConnect(connectCoinbase);
+});
 
 async function loadRankings() {
   const res = await fetch("/data/rankings.json?ts=" + Date.now(), {cache:"no-store"});
