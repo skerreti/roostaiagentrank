@@ -30,10 +30,6 @@
 
       <div class="gate-actions">
         <button class="primary" id="connectBtn">Connect wallet</button>
-        <div class="chooser" id="chooser">
-          <button id="btnInjected">Browser extension</button>
-          <button id="btnCoinbase">Coinbase Wallet</button>
-        </div>
         <div class="wallet-status" id="walletStatus">Hold ≥ $25 of Base $ROOST to unlock.</div>
       </div>
     </section>
@@ -155,25 +151,16 @@ function firstAccount(accounts) {
   return typeof a === "string" ? a : a?.address;
 }
 
-async function connectInjected() {
+async function connectWallet() {
   const eth = window.ethereum;
-  if (!eth) throw new Error("No browser wallet found. Install Coinbase Wallet or MetaMask, or use Coinbase Wallet.");
-  const accounts = await eth.request({method:"eth_requestAccounts"});
-  await switchToBase(eth);
-  return firstAccount(accounts);
-}
+  if (!eth) throw new Error("No injected wallet found. Install or open a wallet that provides window.ethereum.");
 
-async function connectCoinbase() {
-  const { default: CoinbaseWalletSDK } = await import("https://esm.sh/@coinbase/wallet-sdk@4.3.3");
-  const sdk = new CoinbaseWalletSDK({
-    appName:"AI Agent Market Intelligence",
-    appLogoUrl:window.location.origin + "/favicon.ico",
-    appChainIds:[BASE_CHAIN_ID]
-  });
-  const provider = sdk.makeWeb3Provider({options:"all"});
-  const accounts = await provider.request({method:"eth_requestAccounts"});
-  try { await switchToBase(provider); } catch {}
-  return firstAccount(accounts);
+  const accounts = await eth.request({method:"eth_requestAccounts"});
+  const address = firstAccount(accounts);
+  if (!address) throw new Error("No account returned.");
+
+  await switchToBase(eth);
+  return address;
 }
 
 async function verifyAddress(address) {
@@ -222,11 +209,7 @@ async function runConnect(fn) {
   }
 }
 
-document.getElementById("connectBtn").addEventListener("click", () => {
-  document.getElementById("chooser").classList.toggle("open");
-});
-document.getElementById("btnInjected").addEventListener("click", () => runConnect(connectInjected));
-document.getElementById("btnCoinbase").addEventListener("click", () => runConnect(connectCoinbase));
+document.getElementById("connectBtn").addEventListener("click", () => runConnect(connectWallet));
 
 async function loadRankings() {
   const res = await fetch("/data/rankings.json?ts=" + Date.now(), {cache:"no-store"});

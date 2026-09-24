@@ -118,7 +118,7 @@ The public site now uses the same client-side gating model as the supplied Agent
 - Minimum holding: `$25` worth of Base ROOST
 - Price sources: DexScreener → CoinGecko → GeckoTerminal
 - Balance is checked directly against Base RPC
-- Supports browser-injected wallets and Coinbase Wallet SDK
+- Uses the browser-injected `window.ethereum` provider (including wallets that expose an injected provider such as Coinbase Wallet or MetaMask)
 - Robinhood-chain ROOST is not accepted
 
 ### Security note
