@@ -12,6 +12,8 @@ jobs:
   research:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # ADD THIS LINE to tell GitHub to read from your "env" Environment
+    environment: env  
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,9 +35,15 @@ jobs:
         run: |
           git config user.name "agent-market-intelligence[bot]"
           git config user.email "agent-market-intelligence[bot]@users.noreply.github.com"
+          
+          # 1. Stage the file
           git add public/data/rankings.json
-          # Only commit if there are changes to avoid empty commit errors
+          
+          # 2. Commit only if there are actual updates
           git diff --cached --quiet || git commit -m "Weekly rankings $(date -u +%Y-%m-%d)"
-          # 🌟 FETCH AND REBASE REMOTE CHANGES BEFORE PUSHING
-          git pull --rebase
-          git push
+          
+          # 3. Pull with an explicit rebase target to sync up-to-the-second remote changes
+          git pull --rebase origin main
+          
+          # 4. Push specifying the remote and branch explicitly
+          git push origin main
