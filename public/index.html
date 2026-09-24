@@ -6,7 +6,6 @@
   <title>AI Agent Market Intelligence</title>
   <meta name="description" content="Weekly ranking of APIs and agent endpoints across Crypto, TradFi and Meme/Culture.">
   <link rel="stylesheet" href="/styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/ethers@6.15.0/dist/ethers.min.js"></script>
 </head>
 <body>
   <header class="hero">
@@ -69,9 +68,9 @@
     Weekly GitHub scoring · Accepted token: Base $ROOST only.
   </footer>
 
-<script>
-import { ethers } from "https://esm.sh/ethers@6.15.0";
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.15.0/dist/ethers.umd.min.js"></script>
 
+<script>
 const ROOST = "0xeD899bfDB28c8ad65307Fa40f4acAB113AE2E14c";
 const BASE_CHAIN_ID = 8453;
 const BASE_RPC = "https://mainnet.base.org";
@@ -181,10 +180,10 @@ async function verifyAddress(address) {
   statusEl.textContent = "Checking Base $ROOST… " + shortAddress(address);
   currentAddress = address;
 
-  const provider = new ethers.JsonRpcProvider(BASE_RPC);
-  const token = new ethers.Contract(ROOST, ERC20_ABI, provider);
+  const provider = new window.ethers.JsonRpcProvider(BASE_RPC);
+  const token = new window.ethers.Contract(ROOST, ERC20_ABI, provider);
   const [bal, dec] = await Promise.all([token.balanceOf(address), token.decimals()]);
-  const tokens = Number(ethers.formatUnits(bal, dec));
+  const tokens = Number(window.ethers.formatUnits(bal, dec));
 
   if (!roostUsd) await loadPrice();
   const usd = tokens * roostUsd;
