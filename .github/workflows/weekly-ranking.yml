@@ -34,5 +34,8 @@ jobs:
           git config user.name "agent-market-intelligence[bot]"
           git config user.email "agent-market-intelligence[bot]@users.noreply.github.com"
           git add public/data/rankings.json
+          # Only commit if there are changes to avoid empty commit errors
           git diff --cached --quiet || git commit -m "Weekly rankings $(date -u +%Y-%m-%d)"
+          # 🌟 FETCH AND REBASE REMOTE CHANGES BEFORE PUSHING
+          git pull --rebase
           git push
