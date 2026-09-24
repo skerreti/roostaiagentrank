@@ -18,17 +18,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Crucial: Fetches all history so rebase tracking works properly
           fetch-depth: 0 
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm' # Optional speed optimization
+          # 🌟 REMOVED the cache line to prevent lockfile lookup errors
 
       - name: Install Dependencies
-        run: npm ci
+        # 🌟 CHANGED from npm ci to npm install because you don't have a package-lock.json
+        run: npm install
 
       - name: Run Research, Sync History, and Push Data
         env:
@@ -36,7 +36,6 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           SITE_URL: ${{ vars.SITE_URL }}
-          # Pass GitHub's built-in token to allow pushing to main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         run: |
           # 1. Run the research script to generate public/data/rankings.json
