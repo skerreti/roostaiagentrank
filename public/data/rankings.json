@@ -1,22 +1,450 @@
 {
-  "edition": "2026-09-23",
-  "generated_at": "2026-09-23T03:39:46.916Z",
+  "edition": "2026-09-25",
+  "generated_at": "2026-09-25T18:57:36.583Z",
   "methodology_version": "1.0",
   "categories": {
     "crypto": {
       "label": "Crypto / DeFi",
       "description": "APIs agents can use to understand markets, protocols, wallets and on-chain activity.",
-      "rankings": []
+      "rankings": [
+        {
+          "name": "GoldRush",
+          "tagline": "Multi-chain blockchain and wallet data",
+          "score": 89,
+          "agent_score": 90,
+          "coverage_score": 95,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No explicit recent updates or new agent features mentioned; changelog exists but no specific recent activity evident.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://goldrush.dev/",
+            "https://goldrush.dev/docs/"
+          ],
+          "confidence": 85
+        },
+        {
+          "name": "QuickNode",
+          "tagline": "RPC, streams and on-chain infrastructure",
+          "score": 89,
+          "agent_score": 95,
+          "coverage_score": 90,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "No specific evidence of recent changes, new agent features, or ecosystem activity in the provided evidence; defaulting to 50 per rubric.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.quicknode.com/",
+            "https://www.quicknode.com/docs"
+          ],
+          "confidence": 85
+        },
+        {
+          "name": "Bitquery",
+          "tagline": "Multi-chain indexed blockchain and DEX data",
+          "score": 87,
+          "agent_score": 88,
+          "coverage_score": 92,
+          "mcp": true,
+          "free": false,
+          "weekly_reason": "Recent product launches visible in evidence: new pricing plans banner ($49/mo starting), Bitquery Data Store announcement (bulk Parquet datasets), MCP server documentation, and V2 API docs. No specific weekly commit or release cadence evidence.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://bitquery.io/",
+            "https://docs.bitquery.io/",
+            "https://docs.bitquery.io/docs/mcp/mcp-server/",
+            "https://ide.bitquery.io/"
+          ],
+          "confidence": 88
+        },
+        {
+          "name": "Alchemy",
+          "tagline": "Blockchain RPC, APIs and developer infrastructure",
+          "score": 85,
+          "agent_score": 75,
+          "coverage_score": 93,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "Recent updates include Arc mainnet launch and expanded AI/agent capabilities via MCP server, though overall momentum remains moderate without significant recent ecosystem shifts.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.alchemy.com/",
+            "https://www.alchemy.com/docs"
+          ],
+          "confidence": 92
+        },
+        {
+          "name": "Dune",
+          "tagline": "On-chain analytics and query platform",
+          "score": 84,
+          "agent_score": 80,
+          "coverage_score": 85,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity visible in the supplied sources; defaulting to 50.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://dune.com/",
+            "https://docs.dune.com/"
+          ],
+          "confidence": 75
+        },
+        {
+          "name": "CoinGecko",
+          "tagline": "Broad crypto market data and AI-agent/MCP tooling",
+          "score": 77,
+          "agent_score": 60,
+          "coverage_score": 90,
+          "mcp": true,
+          "free": false,
+          "weekly_reason": "Recent 2026 page indicates ongoing updates and active ecosystem activity.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.coingecko.com/en/api",
+            "https://www.coingecko.com/learn/best-cryptocurrency-apis"
+          ],
+          "confidence": 80
+        },
+        {
+          "name": "The Graph",
+          "tagline": "Decentralized blockchain indexing",
+          "score": 75,
+          "agent_score": 70,
+          "coverage_score": 75,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity in the provided sources; defaulting to neutral score.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://thegraph.com/",
+            "https://thegraph.com/docs/"
+          ],
+          "confidence": 40
+        },
+        {
+          "name": "Etherscan",
+          "tagline": "Ethereum explorer and blockchain API",
+          "score": 72,
+          "agent_score": 60,
+          "coverage_score": 50,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity in the supplied data.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://docs.etherscan.io/"
+          ],
+          "confidence": 70
+        }
+      ]
     },
     "tradfi": {
       "label": "TradFi",
       "description": "Market data, fundamentals, macro, news and trading infrastructure.",
-      "rankings": []
+      "rankings": [
+        {
+          "name": "Massive (Polygon)",
+          "tagline": "US market data, quotes, trades, fundamentals and WebSockets",
+          "score": 86,
+          "agent_score": 85,
+          "coverage_score": 85,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "Homepage highlights 'Remote MCP Server is Now Available' with 'What's new' badge, indicating recent agent-focused feature launch.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://massive.com/",
+            "https://massive.com/docs"
+          ],
+          "confidence": 85
+        },
+        {
+          "name": "Alpha Vantage",
+          "tagline": "Stocks, FX, crypto, fundamentals and macro",
+          "score": 86,
+          "agent_score": 85,
+          "coverage_score": 95,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "No specific recent agent features or ecosystem activity mentioned; only generic site update observed.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.alphavantage.co/",
+            "https://www.alphavantage.co/documentation/"
+          ],
+          "confidence": 78
+        },
+        {
+          "name": "Trading Economics",
+          "tagline": "Macro, economic indicators and market data",
+          "score": 82,
+          "agent_score": 85,
+          "coverage_score": 85,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "MCP (Model Context Protocol) support documented in resources, indicating recent agent-focused feature development. Multiple language SDKs (Python, NodeJS, R) actively maintained on GitHub. Docs site recently built with Hugo 0.157.0.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://tradingeconomics.com/",
+            "https://docs.tradingeconomics.com/"
+          ],
+          "confidence": 85
+        },
+        {
+          "name": "Finnhub",
+          "tagline": "Market data, fundamentals, news and WebSockets",
+          "score": 77,
+          "agent_score": 55,
+          "coverage_score": 85,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No recent changes or activity evidence; default 50.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://finnhub.io/",
+            "https://finnhub.io/docs/api"
+          ],
+          "confidence": 60
+        },
+        {
+          "name": "Twelve Data",
+          "tagline": "Multi-asset market data and technical indicators",
+          "score": 75,
+          "agent_score": 85,
+          "coverage_score": 75,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "Cboe Europe real-time data for major European stocks now live; data add-ons page available; native MCP server and u-tool natural-language router for AI agents highlighted on site",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://twelvedata.com/",
+            "https://twelvedata.com/docs"
+          ],
+          "confidence": 70
+        },
+        {
+          "name": "Intrinio",
+          "tagline": "Market data, fundamentals and options",
+          "score": 67,
+          "agent_score": 65,
+          "coverage_score": 60,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "MCP Server labeled 'New' on the website navigation, indicating a recent launch. No other specific recent changes or ecosystem activity visible in the evidence.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://intrinio.com/",
+            "https://docs.intrinio.com/"
+          ],
+          "confidence": 55
+        },
+        {
+          "name": "Tiingo",
+          "tagline": "Curated market and fundamental data",
+          "score": 55,
+          "agent_score": 45,
+          "coverage_score": 50,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity was found in the provided HTML snapshots.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.tiingo.com/",
+            "https://www.tiingo.com/documentation/"
+          ],
+          "confidence": 60
+        },
+        {
+          "name": "Financial Modeling Prep",
+          "tagline": "Fundamentals, statements, ratios and market data",
+          "score": 45,
+          "agent_score": 35,
+          "coverage_score": 55,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No recent evidence of new features, agent enhancements, or ecosystem activity. Direct resource access was blocked (403 errors) preventing assessment of recent momentum.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://financialmodelingprep.com/",
+            "https://site.financialmodelingprep.com/developer/docs"
+          ],
+          "confidence": 62
+        },
+        {
+          "name": "Nasdaq Data Link",
+          "tagline": "Financial and economic datasets",
+          "score": 40,
+          "agent_score": 20,
+          "coverage_score": 50,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity in the supplied evidence; defaulted to 50 per rubric.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://data.nasdaq.com/",
+            "https://docs.data.nasdaq.com/"
+          ],
+          "confidence": 25
+        }
+      ]
     },
     "meme": {
       "label": "Meme / Trenching",
       "description": "DEX discovery, liquidity, social attention, wallet intelligence and emerging narratives.",
-      "rankings": []
+      "rankings": [
+        {
+          "name": "Bitquery",
+          "tagline": "On-chain trades, wallets and DEX intelligence",
+          "score": 84,
+          "agent_score": 85,
+          "coverage_score": 90,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "Recent pricing updates, new data store announcement, and ongoing API feature additions indicate weekly activity.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://bitquery.io/",
+            "https://docs.bitquery.io/"
+          ],
+          "confidence": 85
+        },
+        {
+          "name": "Birdeye",
+          "tagline": "Real-time DEX/token trading and wallet analytics",
+          "score": 81,
+          "agent_score": 85,
+          "coverage_score": 85,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity in the provided sources.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://birdeye.so/",
+            "https://docs.birdeye.so/"
+          ],
+          "confidence": 80
+        },
+        {
+          "name": "Solana Tracker",
+          "tagline": "Solana token and memecoin data",
+          "score": 74,
+          "agent_score": 60,
+          "coverage_score": 85,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No recent activity or changes observed in the past week; default score applied.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://solanatracker.io/",
+            "https://docs.solanatracker.io/"
+          ],
+          "confidence": 80
+        },
+        {
+          "name": "Nansen",
+          "tagline": "Smart-money and wallet intelligence",
+          "score": 72,
+          "agent_score": 65,
+          "coverage_score": 80,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No specific evidence of recent changes, new agent features, or weekly momentum in the provided source; default score of 50 applied.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.nansen.ai/",
+            "https://docs.nansen.ai/"
+          ],
+          "confidence": 70
+        },
+        {
+          "name": "GeckoTerminal",
+          "tagline": "DEX pools, trending/new pools and OHLCV",
+          "score": 63,
+          "agent_score": 70,
+          "coverage_score": 60,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity; default score applied.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://api.geckoterminal.com/docs/"
+          ],
+          "confidence": 75
+        },
+        {
+          "name": "LunarCrush",
+          "tagline": "Social sentiment, mentions, creators and topics",
+          "score": 63,
+          "agent_score": 80,
+          "coverage_score": 70,
+          "mcp": true,
+          "free": true,
+          "weekly_reason": "No evidence of recent changes, new agent features, or ecosystem activity in the provided material; default set to 50.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://lunarcrush.com/",
+            "https://lunarcrush.com/en/developers/api"
+          ],
+          "confidence": 75
+        },
+        {
+          "name": "Helius",
+          "tagline": "Solana RPC, APIs and indexed data",
+          "score": 59,
+          "agent_score": 75,
+          "coverage_score": 30,
+          "mcp": false,
+          "free": true,
+          "weekly_reason": "Homepage banner announces 'Gatekeeper (Beta)' for lower latency, indicating recent feature release.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://www.helius.dev/",
+            "https://www.helius.dev/docs"
+          ],
+          "confidence": 70
+        },
+        {
+          "name": "Santiment",
+          "tagline": "On-chain and social analytics",
+          "score": 43,
+          "agent_score": 20,
+          "coverage_score": 50,
+          "mcp": false,
+          "free": false,
+          "weekly_reason": "No recent changes or activity detected in evidence; default to 50.",
+          "delta": null,
+          "delta_label": "NEW",
+          "evidence_urls": [
+            "https://app.santiment.net/",
+            "https://academy.santiment.net/"
+          ],
+          "confidence": 30
+        }
+      ]
     }
   }
 }
