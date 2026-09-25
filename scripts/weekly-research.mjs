@@ -63,8 +63,24 @@ async function llm(prompt) {
 }
 
 function parseJson(s) {
-  const clean=s.replace(/^```json\s*/,'').replace(/```$/,'').trim();
-  return JSON.parse(clean);
+  let clean = String(s || '')
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/```\s*$/i, '')
+    .trim();
+
+  try {
+    return JSON.parse(clean);
+  } catch {}
+
+  const start = clean.indexOf('{');
+  const end = clean.lastIndexOf('}');
+
+  if (start !== -1 && end > start) {
+    return JSON.parse(clean.slice(start, end + 1));
+  }
+
+  throw new Error(`LLM did not return valid JSON: ${clean.slice(0, 500)}`);
 }
 
 async function evaluateProvider(category, p, previous) {

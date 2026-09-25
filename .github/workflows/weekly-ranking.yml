@@ -12,22 +12,20 @@ jobs:
   research:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    environment: env  
-    
+    environment: env
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # 🌟 REMOVED the cache line to prevent lockfile lookup errors
 
       - name: Install Dependencies
-        # 🌟 CHANGED from npm ci to npm install because you don't have a package-lock.json
         run: npm install
 
       - name: Run Research, Sync History, and Push Data
@@ -36,26 +34,27 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           SITE_URL: ${{ vars.SITE_URL }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         run: |
-          # 1. Run the research script to generate public/data/rankings.json
+          # 1. Generate rankings
           npm run research
-          
-          # 2. Configure the automated bot profile
+
+          # 2. Configure bot identity
           git config user.name "agent-market-intelligence[bot]"
           git config user.email "agent-market-intelligence[bot]@users.noreply.github.com"
-          
-          # 3. Securely set the remote URL with permissions to push back
-          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@://github.com{{ github.repository }}.git"
-          
-          # 4. Stage your newly generated JSON data file
+
+          # 3. Configure authenticated GitHub remote
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
+          # 4. Stage generated rankings
           git add public/data/rankings.json
-          
-          # 5. Commit the file locally if changes exist
+
+          # 5. Commit if rankings changed
           git diff --cached --quiet || git commit -m "Weekly rankings $(date -u +%Y-%m-%d)"
-          
-          # 6. Fetch remote history up to the split second and safely replay your commit over it
+
+          # 6. Update local branch from GitHub
           git pull --rebase origin main
-          
-          # 7. Push out clean linear history back to GitHub
+
+          # 7. Push generated rankings
           git push origin main
